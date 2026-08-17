@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="{{.CSP}}">
+  <meta name="referrer" content="no-referrer">
+  <title>Aquatone Revamped Report</title>
+  <style>{{.CSS}}</style>
+</head>
+<body>
+  <header><div><h1>Aquatone <span>Revamped</span></h1><p id="summary"></p></div><div class="stats" id="stats"></div></header>
+  <main>
+    <section class="controls" aria-label="Report filters">
+      <label>Search <input id="search" type="search" placeholder="URL, title, host, technology"></label>
+      <label>Status <select id="status"><option value="">All</option></select></label>
+      <label>Technology <select id="technology"><option value="">All</option></select></label>
+      <label>Screenshot <select id="shot"><option value="">All</option><option value="ok">Captured</option><option value="blank">Blank</option><option value="failed">Failed</option><option value="skipped">Skipped</option></select></label>
+      <label>Group <select id="group"><option value="cluster">Visual similarity</option><option value="host">Hostname</option><option value="none">None</option></select></label>
+      <label>Sort <select id="sort"><option value="url">URL</option><option value="status">Status</option><option value="time">Response time</option></select></label>
+    </section>
+    <p id="count" class="count"></p><div id="results"></div>
+  </main>
+  <footer>Generated locally by Aquatone Revamped. This report makes no automatic remote requests and may contain sensitive assessment data.</footer>
+  <script id="aquatone-data" type="application/json">{{.Data}}</script>
+  <script>{{.JS}}</script>
+</body>
+</html>

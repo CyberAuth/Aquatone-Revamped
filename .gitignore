@@ -1,0 +1,40 @@
+# Build and coverage artifacts
+/aquatone
+/aquatone.exe
+/build/
+/dist/
+*.test
+*.prof
+coverage.out
+
+# Scan artifacts (may contain sensitive target data)
+/screenshots/
+/headers/
+/html/
+/aquatone_report.html
+/aquatone_urls.txt
+/aquatone_results.jsonl
+/aquatone_session.json
+/results/
+/scans/
+
+# Browser/runtime state
+.DS_Store
+*.log
+*.tmp
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Editors
+.idea/
+.vscode/
+*.swp
