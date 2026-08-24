@@ -8,8 +8,8 @@ github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/projectdiscovery/wappalyzergo v0.2.93 h1:QCjfBiU+6uVor8mhq4chmBexgiGFQlEvptMmJyXPLLw=
-github.com/projectdiscovery/wappalyzergo v0.2.93/go.mod h1:E2p8L90ysTTUkU5FUOgGoCQ7ucEUgqJ/tvYgiGGAlEM=
+github.com/projectdiscovery/wappalyzergo v0.2.94 h1:uHyNIb5OFLzyvEd6v64JLoc7Dlg3dBSjlPyjCIz0+T8=
+github.com/projectdiscovery/wappalyzergo v0.2.94/go.mod h1:E2p8L90ysTTUkU5FUOgGoCQ7ucEUgqJ/tvYgiGGAlEM=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/ysmood/fetchup v0.2.3 h1:ulX+SonA0Vma5zUFXtv52Kzip/xe7aj4vqT5AJwQ+ZQ=

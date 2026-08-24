@@ -7,7 +7,7 @@ toolchain go1.26.6
 require (
 	github.com/corona10/goimagehash v1.1.0
 	github.com/go-rod/rod v0.116.2
-	github.com/projectdiscovery/wappalyzergo v0.2.93
+	github.com/projectdiscovery/wappalyzergo v0.2.94
 	golang.org/x/net v0.57.0
 	mvdan.cc/xurls/v2 v2.6.0
 )
